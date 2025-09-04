@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login Form with Animated Mascot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm" novalidate>
+      <input type="text" id="username" placeholder="Username" required>
+      <div id="usernameError" class="error">Username is required</div>
+
+      <input type="password" id="password" placeholder="Password" required minlength="6">
+      <div id="passwordError" class="error">Password must be at least 6 characters</div>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <!-- Mascot -->
+  <div class="mascot" id="mascot" aria-hidden="true"></div>
+
+  <!-- script at end so DOM elements exist -->
+  <script src="script.js"></script>
+</body>
+</html>
