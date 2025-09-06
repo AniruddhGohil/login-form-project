@@ -1,29 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Login Form with Animated Mascot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h2>Login</h2>
-    <form id="loginForm" novalidate>
-      <input type="text" id="username" placeholder="Username" required>
-      <div id="usernameError" class="error">Username is required</div>
-
-      <input type="password" id="password" placeholder="Password" required minlength="6">
-      <div id="passwordError" class="error">Password must be at least 6 characters</div>
-
-      <button type="submit">Login</button>
-    </form>
+  <div class="login-wrapper">
+    <div class="login-card">
+      <div class="mascot">
+        <img src="mascot.png" alt="Mascot">
+      </div>
+      <div class="form-section">
+        <h2>Welcome Back</h2>
+        <form id="loginForm">
+          <input type="text" id="username" placeholder="Username" required>
+          <input type="password" id="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+        <p id="message"></p>
+      </div>
+    </div>
   </div>
-
-  <!-- Mascot -->
-  <div class="mascot" id="mascot" aria-hidden="true"></div>
-
-  <!-- script at end so DOM elements exist -->
   <script src="script.js"></script>
 </body>
 </html>
