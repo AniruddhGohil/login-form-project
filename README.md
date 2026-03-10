@@ -18,15 +18,13 @@ This login interface includes a visual **mascot illustration beside the form** t
 
 ---
 
-## 📂 Project Structure
-
-login-form-project
+## 📁 Project Structure
+login-form-project/
 │
-├── index.html      # Main login page
-├── style.css       # Styling for the login form
-├── script.js       # JavaScript for form interaction
-└── mascot.png      # Illustration displayed beside the login form
-
+├── index.html # Main login page
+├── style.css # Styling for the login form
+├── script.js # JavaScript for form interaction
+└── mascot.png # Illustration displayed beside the login form
 
 ---
 
